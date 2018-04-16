@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9142a00-61b4-4e52-abe5-e25fad29e5ac" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/css.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-1.12.4.js" afterPath="$PROJECT_DIR$/js/jquery-1.12.4.js" />
       <change beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/badges.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/code.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/forms.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/labels.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/media.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/modals.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navs.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pager.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/panels.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tables.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/theme.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/type.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/variables.less" />
-      <change beforePath="$PROJECT_DIR$/node_modules/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/wells.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,18 +22,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="572">
+              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.12.4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery-1.12.4.js">
+      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+            <state relative-caret-position="418">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -93,18 +42,8 @@
       <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/public.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -123,6 +62,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>px</find>
+      <find>html</find>
+      <find>rem</find>
+      <find>article-main</find>
+      <find>.header-box</find>
+      <find>article-des</find>
+      <find>header-box</find>
     </findStrings>
     <replaceStrings>
       <replace>rem</replace>
@@ -135,9 +80,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
-        <option value="$PROJECT_DIR$/js/public.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/public.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/css.css" />
       </list>
     </option>
   </component>
@@ -246,12 +192,12 @@
       <updated>1523673123456</updated>
       <workItem from="1523673124806" duration="8734000" />
       <workItem from="1523844543158" duration="8626000" />
-      <workItem from="1523859894490" duration="2374000" />
+      <workItem from="1523859894490" duration="10173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19734000" />
+    <option name="totallyTimeSpent" value="27533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-1804" width="1168" height="2034" extended-state="6" />
@@ -259,13 +205,13 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24955752" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32996812" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -295,7 +241,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
@@ -311,7 +257,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -356,24 +302,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/illustration.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/article-start-ico.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/article-border-top.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="572">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="418">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>
