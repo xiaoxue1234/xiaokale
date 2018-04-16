@@ -1,0 +1,84 @@
+/**
+
+Created with JetBrains WebStorm.
+User: shimingjiao 
+Date: 2018/4/14.
+To change this template use File | Settings | File Templates. */
+
+.content{
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 50px 32px 183px;
+}
+.content .article-title{
+    width: 100%;
+    text-align: center;
+    font-size: 46px;
+}
+
+.content .article-des{
+    font-size: 32px;
+}
+
+.content .article-des .time{
+    color: #999;
+}
+.content .article-des .to-article-folder{
+    color: #33c8a6;
+    padding-left: 20px;
+}
+.header-box .header-img{
+    width: 404px;
+    height: 64px;
+}
+
+button.btn-follow{
+    display: inline-block;
+    background-color: #33c8a6;
+    color: #fff;
+    border: 1px solid #24a88a;
+    width: 126px;
+    height: 68px;
+    border-radius: 8px;
+    font-size: 36px;
+    float: right;
+}
+.content .article-main .illustration{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.content .article-main p{
+    font-size: 32px;
+    line-height: 58px;
+    color: #666;
+    margin-top: 60px;
+}
+.qr-code-img{
+    display: block;
+    width: 364px;
+    height: 364px;
+    margin: 0 auto;
+}
+.qr-code-des{
+    width: 100%;
+    font-size: 32px;
+    color: #666;
+    display: inline-block;
+    text-align: center;
+}
+.qr-code-other-des{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #999;
+}
+.ready-original{
+    margin-top: 100px;
+    font-size: 32px;
+    color: #999;
+}
+.ready-original-text{
+    color: #5881b3;
+}
