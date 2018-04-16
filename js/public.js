@@ -4,7 +4,7 @@
  */
 (function (win, doc) {
     function change() {
-        doc.documentElement.style.fontSize = 100 * doc.documentElement.clientWidth / 750 + 'px';
+        doc.documentElement.style.fontSize = 100 * doc.documentElement.clientWidth / 750 + 'rem';
     }
     change();
     win.addEventListener('resize', change, false);

@@ -1227,7 +1227,7 @@ setDocument = Sizzle.setDocument = function( node ) {
 			// Support: IE8, Opera 11-12.16
 			// Nothing should be selected when empty strings follow ^= or $= or *=
 			// The test attribute must be unknown in Opera but "safe" for WinRT
-			// http://msdn.microsoft.com/en-us/library/ie/hh465388.aspx#attribute_section
+			// http://msdn.microsoft.com/en-us/library/ie/hh465388.asrem#attribute_section
 			if ( div.querySelectorAll("[msallowcapture^='']").length ) {
 				rbuggyQSA.push( "[*^$]=" + whitespace + "*(?:''|\"\")" );
 			}
@@ -2666,7 +2666,7 @@ support.sortDetached = assert(function( div1 ) {
 
 // Support: IE<8
 // Prevent attribute/property "interpolation"
-// http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
+// http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.asrem
 if ( !assert(function( div ) {
 	div.innerHTML = "<a href='#'></a>";
 	return div.firstChild.getAttribute("href") === "#" ;
@@ -3719,7 +3719,7 @@ jQuery( function() {
 	// Setup
 	div = document.createElement( "div" );
 	container = document.createElement( "div" );
-	container.style.cssText = "position:absolute;border:0;width:0;height:0;top:0;left:-9999px";
+	container.style.cssText = "position:absolute;border:0;width:0;height:0;top:0;left:-9999rem";
 	body.appendChild( container ).appendChild( div );
 
 	if ( typeof div.style.zoom !== "undefined" ) {
@@ -3728,7 +3728,7 @@ jQuery( function() {
 		// Check if natively block-level elements act like inline-block
 		// elements when setting their display to 'inline' and giving
 		// them layout
-		div.style.cssText = "display:inline;margin:0;border:0;padding:1px;width:1px;zoom:1";
+		div.style.cssText = "display:inline;margin:0;border:0;padding:1rem;width:1rem;zoom:1";
 
 		support.inlineBlockNeedsLayout = val = div.offsetWidth === 3;
 		if ( val ) {
@@ -4268,7 +4268,7 @@ jQuery.fn.extend( {
 		// Setup
 		div = document.createElement( "div" );
 		container = document.createElement( "div" );
-		container.style.cssText = "position:absolute;border:0;width:0;height:0;top:0;left:-9999px";
+		container.style.cssText = "position:absolute;border:0;width:0;height:0;top:0;left:-9999rem";
 		body.appendChild( container ).appendChild( div );
 
 		// Support: IE6
@@ -4282,8 +4282,8 @@ jQuery.fn.extend( {
 				// Vendor-prefix box-sizing
 				"-webkit-box-sizing:content-box;-moz-box-sizing:content-box;" +
 				"box-sizing:content-box;display:block;margin:0;border:0;" +
-				"padding:1px;width:1px;zoom:1";
-			div.appendChild( document.createElement( "div" ) ).style.width = "5px";
+				"padding:1rem;width:1rem;zoom:1";
+			div.appendChild( document.createElement( "div" ) ).style.width = "5rem";
 			shrinkWrapBlocksVal = div.offsetWidth !== 3;
 		}
 
@@ -4319,10 +4319,10 @@ function adjustCSS( elem, prop, valueParts, tween ) {
 			function() { return tween.cur(); } :
 			function() { return jQuery.css( elem, prop, "" ); },
 		initial = currentValue(),
-		unit = valueParts && valueParts[ 3 ] || ( jQuery.cssNumber[ prop ] ? "" : "px" ),
+		unit = valueParts && valueParts[ 3 ] || ( jQuery.cssNumber[ prop ] ? "" : "rem" ),
 
 		// Starting value computation is required for potential unit mismatches
-		initialInUnit = ( jQuery.cssNumber[ prop ] || unit !== "px" && +initial ) &&
+		initialInUnit = ( jQuery.cssNumber[ prop ] || unit !== "rem" && +initial ) &&
 			rcssNum.exec( jQuery.css( elem, prop ) );
 
 	if ( initialInUnit && initialInUnit[ 3 ] !== unit ) {
@@ -6488,7 +6488,7 @@ function defaultDisplay( nodeName ) {
 }
 var rmargin = ( /^margin/ );
 
-var rnumnonpx = new RegExp( "^(" + pnum + ")(?!px)[a-z%]+$", "i" );
+var rnumnonrem = new RegExp( "^(" + pnum + ")(?!rem)[a-z%]+$", "i" );
 
 var swap = function( elem, options, callback, args ) {
 	var ret, name,
@@ -6541,8 +6541,8 @@ var documentElement = document.documentElement;
 	support.clearCloneStyle = div.style.backgroundClip === "content-box";
 
 	container = document.createElement( "div" );
-	container.style.cssText = "border:0;width:8px;height:0;top:0;left:-9999px;" +
-		"padding:0;margin-top:1px;position:absolute";
+	container.style.cssText = "border:0;width:8rem;height:0;top:0;left:-9999rem;" +
+		"padding:0;margin-top:1rem;position:absolute";
 	div.innerHTML = "";
 	container.appendChild( div );
 
@@ -6617,7 +6617,7 @@ var documentElement = document.documentElement;
 			// Vendor-prefix box-sizing
 			"-webkit-box-sizing:border-box;box-sizing:border-box;" +
 			"position:relative;display:block;" +
-			"margin:auto;border:1px;padding:1px;" +
+			"margin:auto;border:1rem;padding:1rem;" +
 			"top:1%;width:50%";
 
 		// Support: IE<9
@@ -6629,13 +6629,13 @@ var documentElement = document.documentElement;
 		if ( window.getComputedStyle ) {
 			divStyle = window.getComputedStyle( div );
 			pixelPositionVal = ( divStyle || {} ).top !== "1%";
-			reliableMarginLeftVal = ( divStyle || {} ).marginLeft === "2px";
-			boxSizingReliableVal = ( divStyle || { width: "4px" } ).width === "4px";
+			reliableMarginLeftVal = ( divStyle || {} ).marginLeft === "2rem";
+			boxSizingReliableVal = ( divStyle || { width: "4rem" } ).width === "4rem";
 
 			// Support: Android 4.0 - 4.3 only
 			// Some styles come back with percentage values, even though they shouldn't
 			div.style.marginRight = "50%";
-			pixelMarginRightVal = ( divStyle || { marginRight: "4px" } ).marginRight === "4px";
+			pixelMarginRightVal = ( divStyle || { marginRight: "4rem" } ).marginRight === "4rem";
 
 			// Support: Android 2.3 only
 			// Div with explicit width and no margin-right incorrectly
@@ -6651,7 +6651,7 @@ var documentElement = document.documentElement;
 				"-webkit-box-sizing:content-box;-moz-box-sizing:content-box;" +
 				"box-sizing:content-box;display:block;margin:0;border:0;padding:0";
 			contents.style.marginRight = contents.style.width = "0";
-			div.style.width = "1px";
+			div.style.width = "1rem";
 
 			reliableMarginRightVal =
 				!parseFloat( ( window.getComputedStyle( contents ) || {} ).marginRight );
@@ -6733,7 +6733,7 @@ if ( window.getComputedStyle ) {
 			// but width seems to be reliably pixels
 			// this is against the CSSOM draft spec:
 			// http://dev.w3.org/csswg/cssom/#resolved-values
-			if ( !support.pixelMarginRight() && rnumnonpx.test( ret ) && rmargin.test( name ) ) {
+			if ( !support.pixelMarginRight() && rnumnonrem.test( ret ) && rmargin.test( name ) ) {
 
 				// Remember the original values
 				width = style.width;
@@ -6784,7 +6784,7 @@ if ( window.getComputedStyle ) {
 		// proportional to the parent element instead
 		// and we can't measure the parent instead because it
 		// might trigger a "stacking dolls" problem
-		if ( rnumnonpx.test( ret ) && !rposition.test( name ) ) {
+		if ( rnumnonrem.test( ret ) && !rposition.test( name ) ) {
 
 			// Remember the original values
 			left = style.left;
@@ -6796,7 +6796,7 @@ if ( window.getComputedStyle ) {
 				rs.left = elem.currentStyle.left;
 			}
 			style.left = name === "fontSize" ? "1em" : ret;
-			ret = style.pixelLeft + "px";
+			ret = style.pixelLeft + "rem";
 
 			// Revert the changed values
 			style.left = left;
@@ -6940,7 +6940,7 @@ function setPositiveNumber( elem, value, subtract ) {
 	return matches ?
 
 		// Guard against undefined "subtract", e.g., when used as in cssHooks
-		Math.max( 0, matches[ 1 ] - ( subtract || 0 ) ) + ( matches[ 2 ] || "px" ) :
+		Math.max( 0, matches[ 1 ] - ( subtract || 0 ) ) + ( matches[ 2 ] || "rem" ) :
 		value;
 }
 
@@ -7009,7 +7009,7 @@ function getWidthOrHeight( elem, name, extra ) {
 		}
 
 		// Computed unit is not pixels. Stop here and return.
-		if ( rnumnonpx.test( val ) ) {
+		if ( rnumnonrem.test( val ) ) {
 			return val;
 		}
 
@@ -7031,7 +7031,7 @@ function getWidthOrHeight( elem, name, extra ) {
 			valueIsBorderBox,
 			styles
 		)
-	) + "px";
+	) + "rem";
 }
 
 jQuery.extend( {
@@ -7051,7 +7051,7 @@ jQuery.extend( {
 		}
 	},
 
-	// Don't automatically add "px" to these possibly-unitless properties
+	// Don't automatically add "rem" to these possibly-unitless properties
 	cssNumber: {
 		"animationIterationCount": true,
 		"columnCount": true,
@@ -7115,7 +7115,7 @@ jQuery.extend( {
 
 			// If a number was passed in, add the unit (except for certain CSS properties)
 			if ( type === "number" ) {
-				value += ret && ret[ 3 ] || ( jQuery.cssNumber[ origName ] ? "" : "px" );
+				value += ret && ret[ 3 ] || ( jQuery.cssNumber[ origName ] ? "" : "rem" );
 			}
 
 			// Fixes #8908, it can be done more correctly by specifing setters in cssHooks,
@@ -7293,7 +7293,7 @@ jQuery.cssHooks.marginLeft = addGetHookIf( support.reliableMarginLeft,
 						} ) :
 					0
 				)
-			) + "px";
+			) + "rem";
 		}
 	}
 );
@@ -7385,7 +7385,7 @@ Tween.prototype = {
 		this.options = options;
 		this.start = this.now = this.cur();
 		this.end = end;
-		this.unit = unit || ( jQuery.cssNumber[ prop ] ? "" : "px" );
+		this.unit = unit || ( jQuery.cssNumber[ prop ] ? "" : "rem" );
 	},
 	cur: function() {
 		var hooks = Tween.propHooks[ this.prop ];
@@ -7436,7 +7436,7 @@ Tween.propHooks = {
 
 			// passing an empty string as a 3rd parameter to .css will automatically
 			// attempt a parseFloat and fallback to a string if the parse fails
-			// so, simple values such as "10px" are parsed to Float.
+			// so, simple values such as "10rem" are parsed to Float.
 			// complex values such as "rotate(1rad)" are returned as is.
 			result = jQuery.css( tween.elem, tween.prop, "" );
 
@@ -8144,7 +8144,7 @@ jQuery.fn.delay = function( time, type ) {
 	a = div.getElementsByTagName( "a" )[ 0 ];
 
 	// First batch of tests.
-	a.style.cssText = "top:1px";
+	a.style.cssText = "top:1rem";
 
 	// Test setAttribute on camelCase class.
 	// If it works, we need attrFixes when doing get/setAttribute (ie6/7)
@@ -8728,7 +8728,7 @@ jQuery.extend( {
 } );
 
 // Some attributes require a special call on IE
-// http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
+// http://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.asrem
 if ( !support.hrefNormalized ) {
 
 	// href/src property should get the full normalized URL (#10299/#12915)
@@ -10158,7 +10158,7 @@ jQuery.ajaxSettings.xhr = window.ActiveXObject !== undefined ?
 
 		// Support: IE<9
 		// oldIE XHR does not support non-RFC2616 methods (#13240)
-		// See http://msdn.microsoft.com/en-us/library/ie/ms536648(v=vs.85).aspx
+		// See http://msdn.microsoft.com/en-us/library/ie/ms536648(v=vs.85).asrem
 		// and http://www.w3.org/Protocols/rfc2616/rfc2616-sec9.html#sec9
 		// Although this check for six methods instead of eight
 		// since IE also does not support "trace" and "connect"
@@ -10867,8 +10867,8 @@ jQuery.each( [ "top", "left" ], function( i, prop ) {
 				computed = curCSS( elem, prop );
 
 				// if curCSS returns percentage, fallback to offset
-				return rnumnonpx.test( computed ) ?
-					jQuery( elem ).position()[ prop ] + "px" :
+				return rnumnonrem.test( computed ) ?
+					jQuery( elem ).position()[ prop ] + "rem" :
 					computed;
 			}
 		}
