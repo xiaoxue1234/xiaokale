@@ -9,16 +9,16 @@ To change this template use File | Settings | File Templates. */
     width: 100%;
     max-width: 7.5rem;
     margin: 0 auto;
-    padding: .5rem .32rem 1.83rem;
+    padding: 0.5rem 0.32rem 1.83rem;
 }
 .content .article-title{
     width: 100%;
     text-align: center;
-    font-size: .46rem;
+    font-size: 0.46rem;
 }
 
 .content .article-des{
-    font-size: .32rem;
+    font-size: 0.32rem;
 }
 
 .content .article-des .time{
@@ -26,11 +26,11 @@ To change this template use File | Settings | File Templates. */
 }
 .content .article-des .to-article-folder{
     color: #33c8a6;
-    padding-left: .2rem;
+    padding-left: 0.2rem;
 }
 .header-box .header-img{
     width: 4.04rem;
-    height: .64rem;
+    height: 0.64rem;
 }
 
 button.btn-follow{
@@ -39,21 +39,21 @@ button.btn-follow{
     color: #fff;
     border: 0.01rem solid #24a88a;
     width: 1.26rem;
-    height: .68rem;
+    height: 0.68rem;
     border-radius: 0.08rem;
-    font-size: .36rem;
+    font-size: 0.36rem;
     float: right;
 }
 .content .article-main .illustration{
     width: 100%;
     height: auto;
-    margin-top: .4rem;
+    margin-top: 0.4rem;
 }
 .content .article-main p{
-    font-size: .32rem;
-    line-height: .58rem;
+    font-size: 0.32rem;
+    line-height: 0.58rem;
     color: #666;
-    margin-top: .6rem;
+    margin-top: 0.6rem;
 }
 .qr-code-img{
     display: block;
@@ -63,7 +63,7 @@ button.btn-follow{
 }
 .qr-code-des{
     width: 100%;
-    font-size: .32rem;
+    font-size: 0.32rem;
     color: #666;
     display: inline-block;
     text-align: center;
@@ -72,12 +72,12 @@ button.btn-follow{
     display: inline-block;
     width: 100%;
     text-align: center;
-    font-size: .28rem;
+    font-size: 0.28rem;
     color: #999;
 }
 .ready-original{
     margin-top: 1rem;
-    font-size: .32rem;
+    font-size: 0.32rem;
     color: #999;
 }
 .ready-original-text{
